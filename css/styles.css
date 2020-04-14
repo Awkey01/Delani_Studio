@@ -1,0 +1,12 @@
+/* core styling */
+body {
+  box-sizing: border-box;
+  line-height: 1.5rem;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* header section */
+mai
