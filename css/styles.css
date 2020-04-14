@@ -36,11 +36,24 @@ body {
 
 }
 #about {
-  margin-top: 20px;
+  margin: 20px;
   padding: 20px;
 }
 #about  h2 {
     text-align: center;
     text-transform: uppercase;
+}
+#services {
+    background: url("../assets/backgrounds/s_image.jpg") no-repeat center center/cover;
+    height: 50vh;
+    padding-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+#services .service-content h2  {
+   text-align: center;
+   text-transform: uppercase;
 }
 
