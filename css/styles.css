@@ -48,7 +48,8 @@ a {
 
 /* About section */
 #about {
-    margin-top: 2rem;
+    margin: 3rem  2rem;
+    
 }
 #about .about {
     text-align: center;
@@ -61,10 +62,59 @@ a {
     background: url("../assets/backgrounds/s_image.jpg") no-repeat center center/cover;
     height:50vh;
     text-align: center;
-    margin-top: 1.5rem 0;
+    margin: 1.5rem 0;
 }
 #service .service-content {
    padding-top: 6rem;
    color: #fff;
    padding-bottom: 2rem;
 }
+/* What we do section */
+#what {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin: 1.5rem 1.4rem;
+}
+#what .m-heading{
+    padding: 1.r5em;
+    margin: 1.75rem;
+}
+.h-last {
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0.55rem 0;
+}
+.design-sec,
+.dev-sec,
+.product-sec {
+    padding: 0.5rem;
+    text-align: center;
+}
+ /* Contact section */
+ #contact {
+     margin: 2.5rem 0;
+     background: url("../assets/backgrounds/c_image.jpg") no-repeat center center/cover;
+     height: 70vh;
+     text-align: center;
+     padding: 2rem  0;
+     color: #fff;
+ }
+ .section-c {
+     padding: 1.75rem;
+ }
+ #contact input {
+    background: #444;
+    color: #fff; 
+ }
+#contact textarea {
+     width: 100%;
+     padding: 0.5rem;
+     background: #444;
+     color: #fff;
+ }
+/* footer */
+#main-footer {
+    text-align: center;
+    padding: 20px;
+}
+
