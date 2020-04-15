@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* Core styling */
 *{
     box-sizing: border-box;
@@ -7,7 +7,64 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
+}
+a {
+    text-decoration: none;
+}
+.h-1 {
+    font-size: 2rem;
+    padding: 0.75rem 0;
+}
+.p-1 {
+    text-align: center;
+}
+.m-heading{
+    text-align: center;
+    font-size: 1.75;
+    text-transform: uppercase;
+}
+/* header section */
+
+#main-head {
+    display: flex;
+    background: url("../assets/backgrounds/h_img.jpg") no-repeat center center/cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#main-head .head-content{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 0;
+}
+#main-head .head-content img {
+    padding: 1.5rem;
+}
+
+/* About section */
+#about {
+    margin-top: 2rem;
+}
+#about .about {
+    text-align: center;
+    padding: 2rem 3rem;
+
+}
+/* Services section */
+
+#service {
+    background: url("../assets/backgrounds/s_image.jpg") no-repeat center center/cover;
+    height:50vh;
+    text-align: center;
+    margin-top: 1.5rem 0;
+}
+#service .service-content {
+   padding-top: 6rem;
+   color: #fff;
+   padding-bottom: 2rem;
 }
