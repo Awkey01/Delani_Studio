@@ -90,12 +90,13 @@ a {
     font-size: 1rem;
     padding: 0.55rem 0;
 }
-.design-sec,
-.dev-sec,
-.product-sec {
-    padding: 0.5rem;
+.design-content,
+.dev-content,
+.pro-content {
     text-align: center;
+    display: none;
 }
+
 /* portfolio section */
  .image {
    

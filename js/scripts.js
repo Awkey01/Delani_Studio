@@ -1,14 +1,22 @@
-$(document).ready(function () { //allow for toggling between icon and description
-	$(".h-last").click(function () {
-		$(".design-sec img").toggle();
-		$(".show py-1").toggle();
+$(document).ready(function () { 
+	$(".design").click(function () {
+		$(".design-image").toggle();
+		$(".design-content").toggle();
 	});
 	$(".development").click(function () {
-		$(".development-icon").toggle();
-		$(".development-description").toggle();
+		$(".dev-image").toggle();
+		$(".dev-content").toggle();
 	});
 	$(".product").click(function () {
-		$(".product-icon").toggle();
-		$(".product-description").toggle();
+		$(".product-image").toggle();
+		$(".pro-content").toggle();
 	});
 });
+
+
+
+
+
+
+// portfolio js hover
+
