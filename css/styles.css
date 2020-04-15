@@ -98,10 +98,7 @@ a {
 }
 
 /* portfolio section */
- .image {
-   
 
-}
 #portfolio .title {
     display: none;
 }
@@ -109,6 +106,9 @@ a {
 .item {
     border: none;
     margin-bottom: 30px;
+  }
+  .work-info {
+      display: none;
   }
 
  /* Contact section */
