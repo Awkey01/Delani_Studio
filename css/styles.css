@@ -32,8 +32,11 @@ a {
     background: url("../assets/backgrounds/h_img.jpg") no-repeat center center/cover;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     flex-direction: column;
+}
+.mouse-click {
+    padding-top: 6rem;
 }
 
 #main-head .head-content{
@@ -79,6 +82,9 @@ a {
     padding: 1.r5em;
     margin: 1.75rem;
 }
+.p-p {
+    text-transform: uppercase;
+}
 .h-last {
     text-transform: uppercase;
     font-size: 1rem;
@@ -92,7 +98,7 @@ a {
 }
  /* Contact section */
  #contact {
-     margin: 2.5rem 0;
+     margin: 1.5rem 0;
      background: url("../assets/backgrounds/c_image.jpg") no-repeat center center/cover;
      height: 70vh;
      text-align: center;
@@ -112,9 +118,30 @@ a {
      background: #444;
      color: #fff;
  }
+ /* social icons */
+ #social-icons{
+     padding: 2rem;
+     text-align: center;
+     line-height: 1rem;
+ }
 /* footer */
 #main-footer {
     text-align: center;
-    padding: 20px;
+    color: #444;
 }
+
+.btn {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #fff;
+    background: #333;
+    padding: 0.75rem 1.8rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: #f7c08a;
+    color: #333;
+  }
 
