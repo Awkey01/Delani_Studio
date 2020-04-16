@@ -98,8 +98,42 @@ a {
 }
 
 /* portfolio section */
+#portfolio {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+#portfolio .m-heading {
+    padding-bottom: 0.6rem;
+}
 
+.title {
+    display: none;
+   
+}
+#portfolio .p-1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1.2rem;
+    padding: 2rem;
+    color: #fff;
 
+   
+}
+.mid {
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background:#333;
+    opacity: 0.55;
+   font-size: 1.5rem;
+
+}
+
+ 
  /* Contact section */
  #contact {
      margin: 1.5rem 0;

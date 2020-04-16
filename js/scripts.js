@@ -21,3 +21,10 @@ $(document).ready(function () {
 // portfolio js hover
 
 
+$(document).ready(function() {
+    $(".title").hide();
+    $(".view").hover(function() {
+        $(this).find(".title").toggle(600);
+    });
+
+});
