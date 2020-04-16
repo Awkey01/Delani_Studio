@@ -63,7 +63,7 @@ a {
 
 #service {
     background: url("../assets/backgrounds/s_image.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:40vh;
     text-align: center;
     margin: 1.5rem 0;
 }
@@ -138,7 +138,7 @@ a {
  #contact {
      margin: 1.5rem 0;
      background: url("../assets/backgrounds/c_image.jpg") no-repeat center center/cover;
-     height: 70vh;
+     height: 60vh;
      text-align: center;
      padding: 2rem  0;
      color: #fff;
@@ -183,3 +183,15 @@ a {
     color: #333;
   }
 
+
+  /* media query */
+ 
+
+  @media(max-width:768px){
+    #contact{
+        height: 86vh;
+    }
+    #service {
+       height: 60vh;
+    }
+  }
