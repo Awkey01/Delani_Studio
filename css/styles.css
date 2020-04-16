@@ -99,17 +99,6 @@ a {
 
 /* portfolio section */
 
-#portfolio .title {
-    display: none;
-}
-    
-.item {
-    border: none;
-    margin-bottom: 30px;
-  }
-  .work-info {
-      display: none;
-  }
 
  /* Contact section */
  #contact {
