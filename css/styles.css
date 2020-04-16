@@ -189,9 +189,10 @@ a {
 
   @media(max-width:768px){
     #contact{
-        height: 86vh;
+        height: 90vh;
     }
     #service {
        height: 60vh;
     }
+   
   }
